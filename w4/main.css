@@ -1,0 +1,29 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: #124a1e;
+    color: whitesmoke;
+}
+
+<style>a:link {
+    color: #97dd3c;
+}
+
+/* Lime green for unvisited links */
+a:visited {
+    color: #ed6ced;
+}
+
+/* Pink for visited links */
+a:hover {
+    color: #e46565;
+}
+
+/* Red when hovering */
+a:active {
+    color: #00f7ff;
+}
+
+/* Teal when clicked */
