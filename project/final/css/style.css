@@ -35,6 +35,35 @@ h2 {
     margin-right: auto;
 }
 
+h3 {
+    padding: 2rem;
+}
+
+p {
+    padding: 2rem;
+}
+
+fieldset {
+    padding: 2rem;
+    border: 4px dashed #CD533B;
+    border-radius: 2rem 2rem 2rem 2rem;
+    width: 75%
+}
+
+input {
+    background-color: aliceblue;
+}
+
+.submit {
+    font-size: 1rem;
+    display: flex;
+}
+
+.legend {
+    font-size: 1.5rem;
+    color: #6f5060
+}
+
 /* Links */
 a:hover,
 a:focus {
@@ -47,6 +76,7 @@ a:visited,
 a:focus {
     color: #6f5060;
 }
+
 
 /* Header and Navigation */
 header {
