@@ -1,0 +1,129 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    background-color: #B3C0A4;
+}
+
+/* Typography */
+h1 {
+    border: 8px solid #137547;
+    width: 50%;
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0.5em;
+    border-radius: 2rem 2rem 2rem 2rem;
+    text-align: center;
+}
+
+h2 {
+    border: 5px solid #6f5060;
+    width: 50%;
+    font-size: 2rem;
+    padding: 0.5em;
+    text-align: center;
+    border-radius: 2rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Links */
+a:hover,
+a:focus {
+    background: #CD533B;
+    color: #333;
+    cursor: pointer;
+}
+
+a:visited,
+a:focus {
+    color: #6f5060;
+}
+
+/* Header and Navigation */
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+nav {
+    border: 5px solid #3e000c;
+    border-radius: 5rem;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+nav[aria-label="primary-navigation"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav[aria-label="primary-navigation"] a {
+    margin-left: 10px;
+}
+
+/* Figures and Images */
+figure {
+    border: 8px solid #3e000c;
+    width: 250px;
+    height: 270px;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figcaption {
+    font-size: 15px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    border: 8px solid #3e000c;
+    height: 285px;
+    width: 250px;
+}
+
+.image-wrap {
+    flex: 0 0 auto;
+    height: auto;
+    width: auto;
+}
+
+/* || SMALL */
+@media screen and (min-width: 576px) {
+    main {
+        justify-content: center;
+        flex-flow: row wrap;
+        padding: 1rem;
+    }
+}
+
+/* || MEDIUM */
+@media screen and (min-width: 768px) {}
+
+/* || LARGE */
+@media screen and (min-width: 992px) {}
+
+
+/* || XL  */
+@media screen and (min-width: 1200px) {}
+
+
+/* || MOBILE DEVICE LANDSCAPE  */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {}
