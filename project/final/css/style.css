@@ -105,6 +105,12 @@ nav[aria-label="primary-navigation"] a {
     margin-left: 10px;
 }
 
+
+/* Footer*/
+footer {
+    padding: 2rem;
+}
+
 /* Figures and Images */
 figure {
     border: 8px solid #3e000c;
